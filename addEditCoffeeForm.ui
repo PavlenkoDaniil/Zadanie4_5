@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QDialog" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление/Редактирование записи о кофе</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="idLabel">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="idLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="nazvanieSortaLabel">
+       <property name="text">
+        <string>Название сорта:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="nazvanieSortaLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="stepenObzharkiLabel">
+       <property name="text">
+        <string>Степень обжарки:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="stepenObzharkiLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="molotiyVZernahLabel">
+       <property name="text">
+        <string>Молотый/в зернах:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="molotiyVZernahLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="opisanieVkusaLabel">
+       <property name="text">
+        <string>Описание вкуса:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="opisanieVkusaLineEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="cenaLabel">
+       <property name="text">
+        <string>Цена:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="cenaLineEdit"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="obemUpakovkiLabel">
+       <property name="text">
+        <string>Объем упаковки:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="obemUpakovkiLineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="acceptButton">
+     <property name="text">
+      <string>Принять</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
